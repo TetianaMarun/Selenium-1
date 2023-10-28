@@ -1,0 +1,184 @@
+{
+  "id": "06cfcb35-6411-438c-be37-428e23effc74",
+  "version": "2.0",
+  "name": "comfy",
+  "url": "https://comfy.ua/ua",
+  "tests": [{
+    "id": "400144bc-f6a4-4b62-ad12-dc085e190a09",
+    "name": "Comfy",
+    "commands": [{
+      "id": "ef1318f1-e57a-4920-9cde-22cd2394d834",
+      "comment": "",
+      "command": "open",
+      "target": "https://comfy.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a1d26d1-936e-4802-b5d4-878d0dc132c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fit",
+      "targets": [
+        ["css=.fit", "css:finder"],
+        ["xpath=//img[@alt='Comfy - мережа магазинів побутової техніки та електроніки']", "xpath:img"],
+        ["xpath=//div[@id='q-app']/div/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac1e9fc6-4557-47e9-bcd0-1a745da8f064",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Смартфони та телефони')]",
+      "targets": [
+        ["linkText=Смартфони та телефони", "linkText"],
+        ["css=.menu-desktop__top-link_selected", "css:finder"],
+        ["xpath=//a[contains(text(),'Смартфони та телефони')]", "xpath:link"],
+        ["xpath=//div[@id='q-app']/div/div[4]/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://comfy.ua/ua/telephone-smartfon/')]", "xpath:href"],
+        ["xpath=//div/div/div/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Смартфони та телефони')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abd9fc73-cac2-491f-9d19-627da1250760",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Galaxy S22 | S21FE')]",
+      "targets": [
+        ["linkText=Galaxy S22 | S21FE", "linkText"],
+        ["css=.portal-tile__item:nth-child(3) .portal-list__item:nth-child(3) > .portal-list__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Galaxy S22 | S21FE')]", "xpath:link"],
+        ["xpath=//div[@id='category']/div/ul/li[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../smartfon/brand__samsung__seriya_smartphone__samsung-galaxy-s21fe--samsung-galaxy-s22/')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7d0d2a06-34d3-4957-8f28-7cc64f1548b4",
+    "name": "Clik on telefon",
+    "commands": [{
+      "id": "6348794e-8f08-4d50-ae2a-0afdb8bee8a5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "441a7647-7ff6-4774-bcc5-102e379a8959",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Телевізори')]",
+      "targets": [
+        ["css=.c-top-i:nth-child(2) .c-top-i__name", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/main/div/div/a[2]/div/span[2]", "xpath:idRelative"],
+        ["xpath=//a[2]/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Телевізори')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82fb96a2-e276-4f34-9dc9-4d48bcd09af8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pr-1587846 .q-carousel__slide",
+      "targets": [
+        ["css=#pr-1587846 .q-carousel__slide", "css:finder"],
+        ["xpath=//div[@id='pr-1587846']/div[3]/div/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f8f480a-e4ee-4c04-9d59-27c632503c3a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Перейти до кошику')]",
+      "targets": [
+        ["css=.cmf-button-base", "css:finder"],
+        ["xpath=//section/div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Перейти до кошику')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30468394-9b13-4313-8cb0-c6fa28e7ca36",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-buy__buttons:nth-child(3) > .base-button",
+      "targets": [
+        ["css=.i-buy__buttons:nth-child(3) > .base-button", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/main/div[4]/div/section[2]/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "552f1dd4-22d6-40ab-b3f6-0403eb4ec24f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@type='button'])[8]",
+      "targets": [
+        ["css=.bg-accent", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='q-app']/div/section[2]/div/div[2]/aside/div/div/div[2]/section/div/div/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Перейти до оформлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98c09cc4-4b95-49a3-b5d3-962092d54f2d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//section/div/div/section/section/div",
+      "targets": [
+        ["css=.cch-xdvvB", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/section[2]/div/div[3]/section/div/div/section/section/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/section/section/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "43e1886d-ada5-4c4c-94c3-268725726e74",
+    "name": "Helloween ",
+    "commands": [{
+      "id": "6803889d-7783-49bd-a88d-895d02113c81",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "788b1a0e-889e-46d8-8be5-7f99c971a8ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(7) .str-ban-dsk__carousel-item-img",
+      "targets": [
+        ["css=.slick-slide:nth-child(7) .str-ban-dsk__carousel-item-img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://scdn.comfy.ua/89fc351a-22e7-41ee-8321-f8a9356ca351/https://skin.comfy.ua/media/slider/248x440_550.jpg/w_320')]", "xpath:img"],
+        ["xpath=//div[@id='q-app']/div/main/div/div/div[2]/div[2]/div/div/div[7]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0667b81e-4646-4d2f-87d9-7f80cb4f0f26",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h1[contains(.,'Sale-Promo')]",
+      "targets": [
+        ["css=.category-info__name", "css:finder"],
+        ["xpath=//div[@id='q-app']/div/div[5]/div/div[3]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Sale-Promo')]", "xpath:innerText"]
+      ],
+      "value": "Sale-Promo"
+    }]
+  }],
+  "suites": [{
+    "id": "6e658f16-da14-440c-ae65-a10a63d72c84",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["400144bc-f6a4-4b62-ad12-dc085e190a09"]
+  }],
+  "urls": ["https://comfy.ua/ua"],
+  "plugins": []
+}
